@@ -1,5 +1,5 @@
 @import "../../../globalStyles/scss/variables.scss";
-
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 .home-page {
   &__hero {
     background-color: $blue-overlay;
@@ -122,6 +122,22 @@
           background-size: contain;
         }
       }
+    }
+  }
+
+  &__gold-price{
+    display : flex;
+    flex: 1;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius:8px;
+    background-color: lightgreen;
+    width: fit-content;
+
+    span{
+      font-family: 'Chakra Petch', sans-serif;
     }
   }
 }
